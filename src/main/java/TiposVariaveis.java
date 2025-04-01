@@ -1,3 +1,15 @@
-int 85;
+public  class  TiposVariaveis{
+  public static void main(String[] args) throws Exception{
+    String meuNome = "Anthony";
+    
+    
+    double salarioMinimo = 2500.44;
+    float pi = 3.14f;
+    long cpf = 12345678910L;
 
-double 3.14;
+    short numeroCurto = 1;
+    int numeroNormal = numeroCurto;
+    short numeroCurto2 = (short)numeroNormal;
+
+  }
+}
